@@ -7,9 +7,9 @@ require "sakura_rails/version"
 Gem::Specification.new do |spec|
   spec.name        = "sakura_rails"
   spec.version     = SakuraRails::VERSION
-  spec.authors     = ["satoshi ono"]
+  spec.authors     = ["Satoshi Ono"]
   spec.email       = ["saongtx7@gmail.com"]
-  spec.homepage    = ""
+  spec.homepage    = "https://github.com/s14228so/sakura_rails"
   spec.summary     = "Summary of SakuraRails."
   spec.description = "Description of SakuraRails."
   spec.license     = "MIT"
