@@ -13,7 +13,7 @@ gem 'sakura_rails'
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 Or install it yourself as:
