@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = SakuraRails::VERSION
   spec.authors     = ["satoshi ono"]
   spec.email       = ["saongtx7@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of SakuraRails."
-  spec.description = "TODO: Description of SakuraRails."
+  spec.homepage    = ""
+  spec.summary     = "Summary of SakuraRails."
+  spec.description = "Description of SakuraRails."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -23,9 +23,8 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,config,db,lib, vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.2"
 
-  spec.add_development_dependency "sqlite3"
 end
