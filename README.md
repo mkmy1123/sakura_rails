@@ -21,6 +21,17 @@ Or install it yourself as:
 $ gem install sakura_rails
 ```
 
+app/assets/stylesheets/application.css
+
+```bash
+@import 'sakura_rails';
+ ```
+
+view_file
+```bash
+<%= fall_sakura %>
+```
+
 ## Contributing
 Contribution directions go here.
 
