@@ -13,12 +13,23 @@ gem 'sakura_rails'
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 Or install it yourself as:
 ```bash
 $ gem install sakura_rails
+```
+
+app/assets/stylesheets/application.css
+
+```css
+@import 'sakura_rails';
+ ```
+
+view_file
+```erb
+<%= fall_sakura %>
 ```
 
 ## Contributing
