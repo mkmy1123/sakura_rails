@@ -23,12 +23,12 @@ $ gem install sakura_rails
 
 app/assets/stylesheets/application.css
 
-```bash
+```css
 @import 'sakura_rails';
  ```
 
 view_file
-```bash
+```erb
 <%= fall_sakura %>
 ```
 
