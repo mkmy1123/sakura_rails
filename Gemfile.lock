@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sakura_rails (0.2.1)
+    sakura_rails (0.2.2)
       rails (~> 5.2.2)
 
 GEM
